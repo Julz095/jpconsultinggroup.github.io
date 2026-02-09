@@ -22,6 +22,17 @@
 #logo { border: none; color: var(--gold-accent) !important; font-weight: bold; text-transform: uppercase; }
 .button { background-color: var(--gold-accent) !important; color: #fff !important; }
 h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-accent); display: inline-block; margin-bottom: 1rem; }
+		/* Footer Logo Icon Style */
+.contact .icons a { border: 0 !important; }
+.contact .icons img { 
+    width: 50px; 
+    height: auto; 
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+}
+.contact .icons a:hover img { 
+    transform: scale(1.1); 
+}
 		</style>
 	</head>
 	<body class="left-sidebar is-preload">
@@ -30,7 +41,7 @@ h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-acc
 			<div id="header">
 					<div class="inner">
 						<header>
-							<h1><a href="index.html" id="logo"><img src="images/jp_consulting_final_highres.jpeg" alt="JP Consulting Group Logo" id="logo-image" /></a></h1>
+							<h1><a href="index.html" id="logo">JP Consulting Group Inc</a></h1>
 						</header>
 					</div>
 					<nav id="nav">
@@ -114,8 +125,12 @@ h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-acc
 									</header>
 									<p>To discuss your next mining project or technical dispute resolution, please reach out via email.</p>
 									<ul class="icons">
-										<li><a href="mailto:julienp@jpconsultinggroup.ca" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-									</ul>
+    <li>
+        <a href="mailto:julienp@jpconsultinggroup.ca">
+            <img src="images/jp_consulting_final_highres.jpeg" alt="Email JP Consulting Group" />
+        </a>
+    </li>
+</ul>
 								</section>
 								<div class="copyright">
 									<ul class="menu">
@@ -141,5 +156,6 @@ h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-acc
 
 	</body>
 </html>
+
 
 
