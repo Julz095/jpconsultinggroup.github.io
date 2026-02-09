@@ -8,14 +8,20 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
 			/* Industrial/Gold Mining Thematic Overrides */
-			:root {
-				--gold-accent: #D4AF37;
-				--industrial-slate: #2C2C2C;
-			}
-			#header { border-bottom: 5px solid var(--gold-accent); background: #1a1a1a; }
-			#logo { color: var(--gold-accent) !important; font-weight: bold; text-transform: uppercase; }
-			.button { background-color: var(--gold-accent) !important; color: #fff !important; }
-			h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-accent); display: inline-block; margin-bottom: 1rem; }
+:root {
+    --gold-accent: #D4AF37;
+    --industrial-slate: #2C2C2C;
+}
+#header { border-bottom: 5px solid var(--gold-accent); background: #1a1a1a; }
+#logo-image {
+    max-height: 80px;
+    width: auto;
+    padding: 10px 0;
+    display: block;
+}
+#logo { border: none; color: var(--gold-accent) !important; font-weight: bold; text-transform: uppercase; }
+.button { background-color: var(--gold-accent) !important; color: #fff !important; }
+h2, h3 { color: var(--industrial-slate); border-bottom: 2px solid var(--gold-accent); display: inline-block; margin-bottom: 1rem; }
 		</style>
 	</head>
 	<body class="left-sidebar is-preload">
@@ -24,7 +30,7 @@
 			<div id="header">
 					<div class="inner">
 						<header>
-							<h1><a href="index.html" id="logo">JP Consulting Group Inc.</a></h1>
+							<h1><a href="index.html" id="logo"><img src="images/jp-logo-gold.png" alt="JP Consulting Group Logo" id="logo-image" /></a></h1>
 						</header>
 					</div>
 					<nav id="nav">
@@ -135,3 +141,4 @@
 
 	</body>
 </html>
+
